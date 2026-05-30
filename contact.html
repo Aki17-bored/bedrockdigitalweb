@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Bedrock Digital Agency</title>
+    
+    <!-- Primary SEO Meta Tags -->
+    <meta name="description" content="Get in touch with Bedrock Digital. Let's start a project together. Email us at bedrockdigitalofficialll@gmail.com or call directly.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Locomotive Scroll CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css?v=61">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div id="cursor">
+        <svg class="snake-cursor" viewBox="0 0 100 100">
+            <path class="snake-path" 
+                  d="M 85 50 Q 85 65 68 68 Q 65 85 50 85 Q 35 85 32 68 Q 15 65 15 50 Q 15 35 32 32 Q 35 15 50 15 Q 65 15 68 32 Q 85 35 85 50 Z" 
+                  pathLength="100" 
+                  stroke-width="5" 
+                  fill="none" 
+                  stroke-linecap="round" />
+        </svg>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav" class="clay-nav">
+        <a href="index.html" class="clay-logo">
+            <img src="ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="nav-logo-img">
+        </a>
+
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="work.html">Work</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-right">
+            <a href="contact.html" class="contact-btn">Contact</a>
+        </div>
+        
+        <button class="nav-menu-toggle" aria-label="Toggle Menu">
+            <span class="toggle-bar bar-top"></span>
+            <span class="toggle-bar bar-bottom"></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="mobile-menu-overlay">
+        <div class="mobile-menu-links">
+            <a href="index.html" class="mobile-link">Home</a>
+            <a href="work.html" class="mobile-link">Work</a>
+            <a href="services.html" class="mobile-link">Services</a>
+            <a href="about.html" class="mobile-link">About</a>
+            <a href="contact.html" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <div id="main" data-scroll-container>
+
+        <!-- Contact Hero Section -->
+        <section id="contact-hero" class="contact-hero" data-scroll>
+            <div class="contact-hero-content">
+                <h1 class="contact-hero-title">Get In Touch</h1>
+                <p class="contact-hero-description">
+                    Have a project in mind, want to collaborate, or just want to say hello? Fill out the form below or contact us directly. We are ready to build with you.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="contact-page-section" data-scroll>
+            <!-- Background decorative orbs -->
+            <div class="contact-orb contact-orb-1"></div>
+            <div class="contact-orb contact-orb-2"></div>
+
+            <div class="contact-inner mob-reveal">
+                <div class="contact-body">
+                    <!-- Left Column -->
+                    <div class="contact-left">
+                        <h2 class="contact-heading">LET'S START<br>A PROJECT<br>TOGETHER</h2>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <span class="detail-label">SEND A MESSAGE</span>
+                                <a href="mailto:bedrockdigitalofficialll@gmail.com" class="detail-link">bedrockdigitalofficialll@gmail.com</a>
+                            </div>
+                            <div class="contact-detail-item">
+                                <span class="detail-label">CALL US DIRECTLY</span>
+                                <a href="tel:+919967597592" class="detail-link" style="margin-bottom: 8px;">+91 99675 97592</a>
+                                <a href="tel:+917400274288" class="detail-link">+91 74002 74288</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials">
+                            <span class="detail-label">FOLLOW US</span>
+                            <div class="contact-social-links">
+                                <a href="#" class="contact-social-btn" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                                <a href="#" class="contact-social-btn" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+                                <a href="#" class="contact-social-btn" aria-label="Twitter / X"><i class="ri-twitter-x-line"></i></a>
+                                <a href="#" class="contact-social-btn" aria-label="Behance"><i class="ri-behance-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column — Form -->
+                    <div class="contact-right">
+                        <form class="contact-form" id="contact-form" autocomplete="off">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="contact-name" name="from_name" class="form-input" placeholder=" " required>
+                                    <label for="contact-name" class="form-label">YOUR NAME</label>
+                                    <div class="form-line"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="contact-number" name="from_phone" class="form-input" placeholder=" " required>
+                                    <label for="contact-number" class="form-label">PHONE NUMBER</label>
+                                    <div class="form-line"></div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="contact-email" name="from_email" class="form-input" placeholder=" " required>
+                                <label for="contact-email" class="form-label">YOUR EMAIL ADDRESS</label>
+                                <div class="form-line"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="contact-message" name="message" class="form-input form-textarea" placeholder=" " required rows="5"></textarea>
+                                <label for="contact-message" class="form-label">TELL US ABOUT YOUR PROJECT</label>
+                                <div class="form-line"></div>
+                            </div>
+
+                            <div class="form-btn-container">
+                                <button type="submit" class="contact-submit-btn" id="contact-submit">
+                                    <span class="btn-text">SEND MESSAGE</span>
+                                    <div class="btn-arrow"><i class="ri-arrow-right-up-line"></i></div>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <div id="footer-wrapper" class="footer-wrapper">
+            <footer id="footer">
+                <!-- Giant Heading Split -->
+                <div class="footer-giant-title-split">
+                    <span class="word-left">Bedrock</span>
+                    <span class="word-right">Digital</span>
+                </div>
+
+                <!-- Bottom bar -->
+                <div class="footer-bottom-bar">
+                    <div class="footer-bottom-left">
+                        <img src="ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="footer-logo-img">
+                    </div>
+                    <div class="footer-bottom-right">
+                        <a href="about.html">About Bedrock</a>
+                        <a href="work.html">Our Work</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    <!-- GSAP & Locomotive Scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="script.js?v=24"></script>
+</body>
+
+</html>

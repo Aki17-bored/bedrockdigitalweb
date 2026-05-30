@@ -4,15 +4,17 @@ gsap.registerPlugin(ScrollTrigger);
 const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
-    multiplier: 0.6, // Balanced premium smooth scroll speed
-    lerp: 0.07,
+    multiplier: 1.2, // Faster smooth scroll speed
+    lerp: 0.1,
     smartphone: {
         smooth: true,
-        multiplier: 0.6
+        multiplier: 1.2,
+        lerp: 0.1
     },
     tablet: {
         smooth: true,
-        multiplier: 0.6
+        multiplier: 1.2,
+        lerp: 0.1
     }
 });
 

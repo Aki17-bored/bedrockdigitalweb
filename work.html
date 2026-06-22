@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Work | Bedrock Digital Agency</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <meta name="google-site-verification" content="MRMrtMYMjYHi_4axDgb_HyUr40zHcR5bUoQGnNYyXPY" />
-    
+    <title>Portfolio | Premium Websites, Mobile Apps &amp; AI Agents | Bedrock Digital</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png?v=108">
+    <link rel="shortcut icon" href="favicon.png?v=108">
+    <link rel="apple-touch-icon" href="favicon.png?v=108">
+
     <!-- Primary SEO Meta Tags -->
-    <meta name="description" content="Explore selected digital experiences built by Bedrock Digital. We design and build high-performance custom websites, bespoke apps, and scaling brand identities.">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Explore Bedrock Digital's client portfolio. See our award-winning custom websites, high-performance web applications, bespoke mobile apps, and autonomous AI system integrations.">
+    <meta name="keywords" content="bedrock digital portfolio, custom web development case studies, app development projects, AI agent case studies, branding portfolio India">
+    <meta name="author" content="Bedrock Digital">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#5d33b0">
+    <meta name="geo.region" content="IN-MH">
+    <meta name="geo.placename" content="Mumbai, Maharashtra">
+    <link rel="canonical" href="https://bedrockdigital.agency/work.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="Bedrock Digital">
+    <meta property="og:url" content="https://bedrockdigital.agency/work.html">
+    <meta property="og:title" content="Portfolio | Premium Websites, Mobile Apps &amp; AI Agents | Bedrock Digital">
+    <meta property="og:description" content="Explore our portfolio of premium custom websites, bespoke platforms, mobile apps, and autonomous AI integrations.">
+    <meta property="og:image" content="https://bedrockdigital.agency/favicon.png">
+    <meta property="og:image:alt" content="Bedrock Digital Portfolio">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@bedrockdigitall">
+    <meta name="twitter:url" content="https://bedrockdigital.agency/work.html">
+    <meta name="twitter:title" content="Portfolio | Premium Websites, Mobile Apps &amp; AI Agents | Bedrock Digital">
+    <meta name="twitter:description" content="Explore our portfolio of premium custom websites, bespoke platforms, mobile apps, and autonomous AI integrations.">
+    <meta name="twitter:image" content="https://bedrockdigital.agency/favicon.png">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bedrockdigital.agency/work.html#webpage",
+          "url": "https://bedrockdigital.agency/work.html",
+          "name": "Portfolio | Premium Websites, Mobile Apps &amp; AI Agents | Bedrock Digital",
+          "isPartOf": {"@id": "https://bedrockdigital.agency/#website"},
+          "about": {"@id": "https://bedrockdigital.agency/#organization"},
+          "description": "Explore Bedrock Digital's work portfolio containing custom website designs, mobile app designs, and AI projects.",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bedrockdigital.agency/"},
+              {"@type": "ListItem", "position": 2, "name": "Work", "item": "https://bedrockdigital.agency/work.html"}
+            ]
+          },
+          "inLanguage": "en-IN"
+        }
+      ]
+    }
+    </script>
 
     <!-- Locomotive Scroll CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
@@ -19,14 +72,19 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css?v=58">
+    <link rel="stylesheet" href="style.css?v=107">
+
+    <!-- Three.js for Premium 3D Graphics -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
 <body>
+
     <!-- Custom Cursor -->
     <div id="cursor">
+        <div class="cursor-text"></div>
         <svg class="snake-cursor" viewBox="0 0 100 100">
             <path class="snake-path" 
                   d="M 85 50 Q 85 65 68 68 Q 65 85 50 85 Q 35 85 32 68 Q 15 65 15 50 Q 15 35 32 32 Q 35 15 50 15 Q 65 15 68 32 Q 85 35 85 50 Z" 
@@ -40,55 +98,115 @@
     <!-- Navigation -->
     <nav id="nav" class="clay-nav">
         <a href="index.html" class="clay-logo">
-            <img src="ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="nav-logo-img">
+            <img src="assests/ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=99" alt="Bedrock Digital" class="nav-logo-img">
         </a>
 
         <div class="links">
             <a href="index.html">Home</a>
-            <a href="work.html">Work</a>
+            <a href="work.html" class="active">Work</a>
             <a href="services.html">Services</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </div>
         <div class="nav-right">
-            <a href="contact.html" class="contact-btn">Contact</a>
+            <div id="nav-cube-container"></div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="ri-menu-line"></i>
+            </button>
         </div>
-        
-        <button class="nav-menu-toggle" aria-label="Toggle Menu">
-            <span class="toggle-bar bar-top"></span>
-            <span class="toggle-bar bar-bottom"></span>
-        </button>
     </nav>
-
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu" class="mobile-menu-overlay">
-        <div class="mobile-menu-links">
-            <a href="index.html" class="mobile-link">Home</a>
-            <a href="work.html" class="mobile-link">Work</a>
-            <a href="services.html" class="mobile-link">Services</a>
-            <a href="about.html" class="mobile-link">About</a>
-            <a href="contact.html" class="mobile-link">Contact</a>
-        </div>
-    </div>
 
     <div id="main" data-scroll-container>
 
-        <!-- Work Hero Section -->
-        <section id="work-hero" class="work-hero" data-scroll>
-            <div class="work-hero-content">
-                <h1 class="work-hero-title">Our Work</h1>
-                <p class="work-hero-description">
-                    Selected digital experiences built for modern brands.<br>
-                    Our work brings together clean design, strong functionality, and brand-first thinking across websites, digital platforms, AI systems, and business experiences.
+        <!-- Work Header Section -->
+        <section class="subpage-header-section" data-scroll>
+            <div class="subpage-header-content mob-reveal">
+                <div class="subpage-breadcrumbs">
+                    <a href="index.html">BEDROCK</a> <i class="ri-arrow-right-s-line"></i> <span class="current-page">WORK</span>
+                </div>
+                <h1 class="subpage-title">OUR WORK</h1>
+                <p class="subpage-description">
+                    Selected digital experiences built for modern brands. Our work brings together clean design, strong functionality, and brand-first thinking across websites, digital platforms, AI systems, and business experiences.
                 </p>
+                <div class="header-tags-row">
+                    <span class="header-tag-pill"><i class="ri-archive-line"></i> SELECTED ARCHIVE</span>
+                    <span class="header-tag-pill"><i class="ri-dashboard-line"></i> 18 PROJECTS</span>
+                    <span class="header-tag-pill"><i class="ri-window-line"></i> REACT / NEXT.JS</span>
+                </div>
+            </div>
+            <div class="subpage-header-graphic mob-reveal">
+                <div class="services-metric-widget">
+                    <div class="widget-header">
+                        <div class="widget-status-dot"></div>
+                        <span class="widget-meta">LIVE RECORD ENGINE</span>
+                        <div class="widget-coords">SYS: PORTFOLIO_V2</div>
+                    </div>
+                    
+                    <div class="widget-content">
+                        <!-- Metric 1 -->
+                        <div class="widget-metric-row">
+                            <div class="metric-info">
+                                <span class="metric-num">24</span>
+                                <span class="metric-title">Our Clients</span>
+                            </div>
+                            <div class="metric-bar-wrapper">
+                                <div class="metric-bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Metric 2 -->
+                        <div class="widget-metric-row">
+                            <div class="metric-info">
+                                <span class="metric-num">03</span>
+                                <span class="metric-title">Ongoing Builds</span>
+                            </div>
+                            <div class="metric-bar-wrapper">
+                                <div class="metric-bar animate-pulse-width" style="width: 35%; background: var(--brand-color);"></div>
+                            </div>
+                        </div>
+
+                        <!-- Metric 3 -->
+                        <div class="widget-metric-row">
+                            <div class="metric-info">
+                                <span class="metric-num">48</span>
+                                <span class="metric-title">Completed Projects</span>
+                            </div>
+                            <div class="metric-bar-wrapper">
+                                <div class="metric-bar" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget-footer">
+                        <span class="footer-status">// DATABASE SYNCHRONIZED</span>
+                        <span class="footer-latency">LATENCY: 12MS</span>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Projects Grid Section -->
-        <section id="projects" data-scroll style="padding-top: 0;">
+        <section id="projects" class="subpage-projects-section" data-scroll>
+            <div class="filter-bar-wrapper">
+                <div class="projects-filter-bar">
+                    <button class="filter-btn active" data-filter="all">
+                        <span class="filter-label">All Works</span>
+                    </button>
+                    <button class="filter-btn" data-filter="website">
+                        <span class="filter-label">Websites</span>
+                    </button>
+                    <button class="filter-btn" data-filter="ai-automation">
+                        <span class="filter-label">AI &amp; Automation</span>
+                    </button>
+                    <button class="filter-btn" data-filter="digital-marketing">
+                        <span class="filter-label">Digital Marketing</span>
+                    </button>
+                </div>
+            </div>
+
             <div class="project-rows-container">
                 <!-- Project 1 -->
-                <div class="project-card-row" data-url="https://www.thegourmetfoodatlas.com/">
+                <div class="project-card-row" data-category="website" data-url="https://www.thegourmetfoodatlas.com/">
                     <div class="project-card-img">
                         <img src="imagesourwork/ourwork1.png" alt="The Gourmet Food Atlas">
                     </div>
@@ -106,7 +224,7 @@
                 </div>
 
                 <!-- Project 2 -->
-                <div class="project-card-row" data-url="https://www.astonhighschool.org/">
+                <div class="project-card-row reverse-row" data-category="website" data-url="https://www.astonhighschool.org/">
                     <div class="project-card-img">
                         <img src="imagesourwork/ourwork2.png" alt="Aston Hostel & College">
                     </div>
@@ -124,7 +242,7 @@
                 </div>
 
                 <!-- Project 3 -->
-                <div class="project-card-row" data-url="https://www.dighekulkarni.com/">
+                <div class="project-card-row" data-category="website" data-url="https://www.dighekulkarni.com/">
                     <div class="project-card-img">
                         <img src="imagesourwork/ourwork3.png" alt="Dighe Kulkarni">
                     </div>
@@ -142,7 +260,7 @@
                 </div>
 
                 <!-- Project 4 -->
-                <div class="project-card-row" data-url="https://www.xpandventures.in/">
+                <div class="project-card-row reverse-row" data-category="website" data-url="https://www.xpandventures.in/">
                     <div class="project-card-img">
                         <img src="imagesourwork/ourwork4.png" alt="Xpand Ventures">
                     </div>
@@ -160,7 +278,7 @@
                 </div>
 
                 <!-- Project 5 -->
-                <div class="project-card-row" data-url="https://agent-intern.onrender.com/">
+                <div class="project-card-row" data-category="ai-automation" data-url="https://agent-intern.onrender.com/">
                     <div class="project-card-img">
                         <img src="imagesourwork/ourwork5.png" alt="Jojo AI">
                     </div>
@@ -178,7 +296,7 @@
                 </div>
 
                 <!-- Project 6 -->
-                <div class="project-card-row" data-url="https://invento-espirit-wp8m.vercel.app/">
+                <div class="project-card-row reverse-row" data-category="ai-automation" data-url="https://invento-espirit-wp8m.vercel.app/">
                     <div class="project-card-img">
                         <img src="imagesourwork/ourwork6.png" alt="Innvento AI">
                     </div>
@@ -196,14 +314,14 @@
                 </div>
 
                 <!-- Project 7 -->
-                <div class="project-card-row" data-url="https://siddhivinayakcarcare.com/">
+                <div class="project-card-row" data-category="website" data-url="https://siddhivinayakcarcare.com/">
                     <div class="project-card-img">
                         <img src="imagesourwork/ourwork7.png" alt="Siddhivinayak Car Care">
                     </div>
                     <div class="project-card-info">
                         <span class="project-num">07</span>
                         <h3 class="project-title">Siddhivinayak Car Care</h3>
-                        <p class="project-desc">A service-led automotive website designed to make car care, maintenance, diagnostics, and detailing services easy to understand. Built with a clear structure to support trust, enquiries, and service bookings.</p>
+                        <p class="project-desc">A service-led automotive website designed to make car care, maintenance, diagnostics, and detailing services easy to understand. Built with a clean structure to support trust, enquiries, and service bookings.</p>
                         <div class="tags">
                             <span class="tag">AUTO SERVICES</span>
                             <span class="tag">SERVICE WEBSITE</span>
@@ -214,7 +332,7 @@
                 </div>
 
                 <!-- Project 8 -->
-                <div class="project-card-row" data-url="https://amoreventz.com/">
+                <div class="project-card-row reverse-row" data-category="website" data-url="https://amoreventz.com/">
                     <div class="project-card-img">
                         <img src="imagesourwork/ourwork8.png" alt="Amor Eventz">
                     </div>
@@ -230,22 +348,240 @@
                         <a href="https://amoreventz.com/" target="_blank" class="project-btn-link">Visit Website <i class="ri-arrow-right-up-line"></i></a>
                     </div>
                 </div>
+
+                <!-- Project 9 -->
+                <div class="project-card-row" data-category="ai-automation" data-url="#chat-widget" id="project-bedrock-assist">
+                    <div class="project-card-img">
+                        <img src="imagesourwork/ourwork_bedrock_assist.png" alt="Bedrock Assistance">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">09</span>
+                        <h3 class="project-title">Bedrock Assistance</h3>
+                        <p class="project-desc">Our intelligent conversational AI system integrated directly into Bedrock Digital's platform. It answers queries, showcases our works, navigates sections, and triggers urgent dispatch notifications to the founder.</p>
+                        <div class="tags">
+                            <span class="tag">AI ASSISTANT</span>
+                            <span class="tag">CONVERSATIONAL AI</span>
+                            <span class="tag">AUTOMATED FLOWS</span>
+                        </div>
+                        <a href="#chat-widget" class="project-btn-link chatbot-launch-trigger">Launch Assistant <i class="ri-chat-smile-2-fill"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="project-card-row reverse-row" data-category="website" data-url="https://landing.edzioglobal.com/">
+                    <div class="project-card-img">
+                        <img src="imagesourwork/edzio global.png" alt="Edzio Global">
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">10</span>
+                        <h3 class="project-title">Edzio Global</h3>
+                        <p class="project-desc">A premium global educational platform providing scalable virtual learning environments, comprehensive student tracking systems, and modern corporate training workflows. Built on responsive, modern React architecture.</p>
+                        <div class="tags">
+                            <span class="tag">E-LEARNING PORTAL</span>
+                            <span class="tag">STUDENT DASHBOARD</span>
+                            <span class="tag">REACT PLATFORM</span>
+                        </div>
+                        <a href="https://landing.edzioglobal.com/" target="_blank" class="project-btn-link">Visit Website <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 11 -->
+                <div class="project-card-row" data-category="digital-marketing" data-url="https://drive.google.com/drive/folders/1VJS5DbHYD4Iy67c89rZVPOGq3dy0bKEn">
+                    <div class="project-card-img video-card-wrapper">
+                        <img src="imagesourwork/dm_bappa_campaign.png" alt="Bappa Campaign" class="video-thumb-img">
+                        <div class="video-card-overlay"></div>
+                        <a href="https://drive.google.com/drive/folders/1VJS5DbHYD4Iy67c89rZVPOGq3dy0bKEn" target="_blank" class="video-play-btn" aria-label="Watch Bappa Video Campaign">
+                            <i class="ri-play-fill"></i>
+                        </a>
+                        <span class="video-label-badge">VIDEO CAMPAIGN</span>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">11</span>
+                        <h3 class="project-title">Bappa Video Campaign</h3>
+                        <p class="project-desc">A high-energy cultural video campaign capturing the devotion, colors, and rhythm of the Ganesh festival. Produced and edited to maximize community engagement and visual storytelling for social channels.</p>
+                        <div class="tags">
+                            <span class="tag">VIDEO CAMPAIGN</span>
+                            <span class="tag">SOCIAL MEDIA</span>
+                            <span class="tag">CULTURAL BRANDING</span>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1VJS5DbHYD4Iy67c89rZVPOGq3dy0bKEn" target="_blank" class="project-btn-link">Watch Videos <i class="ri-play-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 12 -->
+                <div class="project-card-row reverse-row" data-category="digital-marketing" data-url="https://drive.google.com/drive/folders/1zo6U5fjr-MsFUgy0_eDmcy5a3U4TdjDp">
+                    <div class="project-card-img video-card-wrapper">
+                        <img src="imagesourwork/dm_gudipadwa_campaign.png" alt="Girgaon Gudipadwa" class="video-thumb-img">
+                        <div class="video-card-overlay"></div>
+                        <a href="https://drive.google.com/drive/folders/1zo6U5fjr-MsFUgy0_eDmcy5a3U4TdjDp" target="_blank" class="video-play-btn" aria-label="Watch Gudipadwa Campaign">
+                            <i class="ri-play-fill"></i>
+                        </a>
+                        <span class="video-label-badge">CINEMATIC VIDEO</span>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">12</span>
+                        <h3 class="project-title">Girgaon Gudipadwa Campaign</h3>
+                        <p class="project-desc">A cinematic coverage documenting the massive Gudi Padwa new year procession in Mumbai. Focuses on storytelling, cultural pride, and premium video quality tailored for high viral potential on reels.</p>
+                        <div class="tags">
+                            <span class="tag">CINEMATIC VIDEO</span>
+                            <span class="tag">EVENT MARKETING</span>
+                            <span class="tag">LOCAL ENGAGEMENT</span>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1zo6U5fjr-MsFUgy0_eDmcy5a3U4TdjDp" target="_blank" class="project-btn-link">Watch Videos <i class="ri-play-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 13 -->
+                <div class="project-card-row" data-category="digital-marketing" data-url="https://drive.google.com/drive/folders/1nMOllTg6S-Wfz4I5Hxs-_TulZ84BShH5">
+                    <div class="project-card-img video-card-wrapper">
+                        <img src="imagesourwork/dm_kalaghod_campaign.png" alt="Kala Ghoda Arts Festival" class="video-thumb-img">
+                        <div class="video-card-overlay"></div>
+                        <a href="https://drive.google.com/drive/folders/1nMOllTg6S-Wfz4I5Hxs-_TulZ84BShH5" target="_blank" class="video-play-btn" aria-label="Watch Kala Ghoda Videos">
+                            <i class="ri-play-fill"></i>
+                        </a>
+                        <span class="video-label-badge">ART COVERAGE</span>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">13</span>
+                        <h3 class="project-title">Kala Ghoda Arts Festival</h3>
+                        <p class="project-desc">An artistic promotional video covering installations, workshops, and exhibitions at the historic Kala Ghoda Arts Festival. Designed to capture urban experiences and design-forward aesthetics.</p>
+                        <div class="tags">
+                            <span class="tag">ART COVERAGE</span>
+                            <span class="tag">PROMOTIONAL VIDEO</span>
+                            <span class="tag">VISUAL STORYTELLING</span>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1nMOllTg6S-Wfz4I5Hxs-_TulZ84BShH5" target="_blank" class="project-btn-link">Watch Videos <i class="ri-play-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 14 -->
+                <div class="project-card-row reverse-row" data-category="digital-marketing" data-url="https://drive.google.com/drive/folders/1-kqSczNRF1huCaaE49mP2mQ4o_Jsf2Up">
+                    <div class="project-card-img video-card-wrapper">
+                        <img src="imagesourwork/dm_kalsubai_campaign.png" alt="Kalsubai Adventure" class="video-thumb-img">
+                        <div class="video-card-overlay"></div>
+                        <a href="https://drive.google.com/drive/folders/1-kqSczNRF1huCaaE49mP2mQ4o_Jsf2Up" target="_blank" class="video-play-btn" aria-label="Watch Kalsubai Videos">
+                            <i class="ri-play-fill"></i>
+                        </a>
+                        <span class="video-label-badge">ADVENTURE FILM</span>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">14</span>
+                        <h3 class="project-title">Kalsubai Adventure Video</h3>
+                        <p class="project-desc">An immersive adventure travel video capturing a scenic trek to Kalsubai, the highest peak in Maharashtra. Focused on breathtaking landscape views and dynamic outdoor storytelling.</p>
+                        <div class="tags">
+                            <span class="tag">ADVENTURE TRAVEL</span>
+                            <span class="tag">OUTDOOR FILM</span>
+                            <span class="tag">CAMPAIGN REACH</span>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1-kqSczNRF1huCaaE49mP2mQ4o_Jsf2Up" target="_blank" class="project-btn-link">Watch Videos <i class="ri-play-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 15 -->
+                <div class="project-card-row" data-category="digital-marketing" data-url="https://drive.google.com/drive/folders/1wSTDQOSKViChCFK3vh1n_fcyU0QFldQ5">
+                    <div class="project-card-img video-card-wrapper">
+                        <img src="imagesourwork/dm_mahuli_campaign.png" alt="Mahuli Fort Cinematic" class="video-thumb-img">
+                        <div class="video-card-overlay"></div>
+                        <a href="https://drive.google.com/drive/folders/1wSTDQOSKViChCFK3vh1n_fcyU0QFldQ5" target="_blank" class="video-play-btn" aria-label="Watch Mahuli Fort Videos">
+                            <i class="ri-play-fill"></i>
+                        </a>
+                        <span class="video-label-badge">CINEMATIC B-ROLL</span>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">15</span>
+                        <h3 class="project-title">Mahuli Fort Cinematic</h3>
+                        <p class="project-desc">A premium cinematic video campaign detailing the historical landscapes and green valleys of Mahuli Fort. Produced to highlight adventure gear, tourism activities, and outdoor exploration.</p>
+                        <div class="tags">
+                            <span class="tag">CINEMATIC B-ROLL</span>
+                            <span class="tag">OUTDOOR FILM</span>
+                            <span class="tag">VISUAL CONTENT</span>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1wSTDQOSKViChCFK3vh1n_fcyU0QFldQ5" target="_blank" class="project-btn-link">Watch Videos <i class="ri-play-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 16 -->
+                <div class="project-card-row reverse-row" data-category="digital-marketing" data-url="https://drive.google.com/drive/folders/1UhhZfqn0BPLW_w1Wj785kJRbp4ss3SBz">
+                    <div class="project-card-img video-card-wrapper">
+                        <img src="imagesourwork/dm_rajasthan_campaign.png" alt="Rajasthan Heritage" class="video-thumb-img">
+                        <div class="video-card-overlay"></div>
+                        <a href="https://drive.google.com/drive/folders/1UhhZfqn0BPLW_w1Wj785kJRbp4ss3SBz" target="_blank" class="video-play-btn" aria-label="Watch Rajasthan Heritage Campaign">
+                            <i class="ri-play-fill"></i>
+                        </a>
+                        <span class="video-label-badge">HERITAGE FILM</span>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">16</span>
+                        <h3 class="project-title">Rajasthan Heritage Campaign</h3>
+                        <p class="project-desc">A premium heritage tourism film showcasing the palaces, architecture, and traditions of Rajasthan. Produced as part of an integrated digital branding campaign for luxury heritage hotels.</p>
+                        <div class="tags">
+                            <span class="tag">HERITAGE FILM</span>
+                            <span class="tag">TOURISM BRANDING</span>
+                            <span class="tag">CINEMATOGRAPHY</span>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1UhhZfqn0BPLW_w1Wj785kJRbp4ss3SBz" target="_blank" class="project-btn-link">Watch Videos <i class="ri-play-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 17 -->
+                <div class="project-card-row" data-category="digital-marketing" data-url="https://drive.google.com/drive/folders/1OJUPpILjaQV0muF1sT8SOAtI4A-L9nnS">
+                    <div class="project-card-img video-card-wrapper">
+                        <img src="imagesourwork/dm_colorgrade_campaign.png" alt="Cinematic Color Grading" class="video-thumb-img">
+                        <div class="video-card-overlay"></div>
+                        <a href="https://drive.google.com/drive/folders/1OJUPpILjaQV0muF1sT8SOAtI4A-L9nnS" target="_blank" class="video-play-btn" aria-label="Watch Color Grading Showcase">
+                            <i class="ri-play-fill"></i>
+                        </a>
+                        <span class="video-label-badge">POST PRODUCTION</span>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">17</span>
+                        <h3 class="project-title">Cinematic Color Grading</h3>
+                        <p class="project-desc">Specialized post-production showcase highlighting professional color grading, shadow detail adjustments, exposure management, and styling for commercial videos and advertisements.</p>
+                        <div class="tags">
+                            <span class="tag">COLOR GRADING</span>
+                            <span class="tag">POST PRODUCTION</span>
+                            <span class="tag">VIDEO DESIGN</span>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1OJUPpILjaQV0muF1sT8SOAtI4A-L9nnS" target="_blank" class="project-btn-link">Watch Videos <i class="ri-play-circle-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 18 -->
+                <div class="project-card-row reverse-row" data-category="digital-marketing" data-url="https://drive.google.com/drive/folders/1kh0TLNnPODFRdOGKxuAD1DpQktiJRr-6">
+                    <div class="project-card-img video-card-wrapper">
+                        <img src="imagesourwork/dm_personalbrand_campaign.png" alt="Personal Brand Content" class="video-thumb-img">
+                        <div class="video-card-overlay"></div>
+                        <a href="https://drive.google.com/drive/folders/1kh0TLNnPODFRdOGKxuAD1DpQktiJRr-6" target="_blank" class="video-play-btn" aria-label="Watch Personal Brand Content">
+                            <i class="ri-play-fill"></i>
+                        </a>
+                        <span class="video-label-badge">SHORT FORM VIDEO</span>
+                    </div>
+                    <div class="project-card-info">
+                        <span class="project-num">18</span>
+                        <h3 class="project-title">Personal Brand Content</h3>
+                        <p class="project-desc">Engaging social media short-form videos and animations designed to build authority, engage audiences, and drive personal brand scaling on platforms like Instagram and YouTube Shorts.</p>
+                        <div class="tags">
+                            <span class="tag">SHORT FORM VIDEO</span>
+                            <span class="tag">INFLUENCER REEL</span>
+                            <span class="tag">BRAND GROWTH</span>
+                        </div>
+                        <a href="https://drive.google.com/drive/folders/1kh0TLNnPODFRdOGKxuAD1DpQktiJRr-6" target="_blank" class="project-btn-link">Watch Videos <i class="ri-play-circle-line"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Footer Section -->
         <div id="footer-wrapper" class="footer-wrapper">
             <footer id="footer">
-                <!-- Giant Heading Split -->
                 <div class="footer-giant-title-split">
                     <span class="word-left">Bedrock</span>
                     <span class="word-right">Digital</span>
                 </div>
 
-                <!-- Bottom bar -->
                 <div class="footer-bottom-bar">
                     <div class="footer-bottom-left">
-                        <img src="ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="footer-logo-img">
+                        <img src="assests/ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="footer-logo-img">
                     </div>
                     <div class="footer-bottom-right">
                         <a href="about.html">About Bedrock</a>
@@ -264,8 +600,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 
+    <!-- Floating Chat Widget -->
+    <div id="chat-widget" class="chat-widget-container">
+        <!-- Floating Chat Button -->
+        <button id="chat-toggle-btn" class="chat-toggle-button" aria-label="Open Chat">
+            <i class="ri-message-3-line"></i>
+            <div class="chat-notification-dot"></div>
+        </button>
+
+        <!-- Chat Window Card -->
+        <div id="chat-window" class="chat-window-card">
+            <!-- Header -->
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar">
+                        <span class="avatar-dot"></span>
+                        <i class="ri-robot-2-line"></i>
+                    </div>
+                    <div class="chat-status-wrapper">
+                        <h4>Bedrock Assistant</h4>
+                        <span class="chat-status-text">online</span>
+                    </div>
+                </div>
+                <button id="chat-close-btn" class="chat-close-button" aria-label="Close Chat">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+
+            <!-- Messages List -->
+            <div id="chat-messages" class="chat-messages-container"></div>
+
+            <!-- Suggestion Chips -->
+            <div id="chat-suggestions" class="chat-suggestions-container"></div>
+
+            <!-- Input Area -->
+            <form id="chat-input-form" class="chat-input-form">
+                <input type="text" id="chat-input-field" placeholder="Ask a question..." autocomplete="off" required />
+                <button type="submit" id="chat-send-btn" class="chat-send-button" aria-label="Send Message">
+                    <i class="ri-send-plane-fill"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
     <!-- Main JS -->
-    <script src="script.js?v=24"></script>
+    <script src="script.js?v=109"></script>
 </body>
 
 </html>

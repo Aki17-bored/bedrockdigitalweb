@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services | Bedrock Digital Agency</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <meta name="google-site-verification" content="MRMrtMYMjYHi_4axDgb_HyUr40zHcR5bUoQGnNYyXPY" />
-    
+    <title>Services | Custom Web Development, Mobile Apps &amp; AI Agents | Bedrock Digital</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png?v=108">
+    <link rel="shortcut icon" href="favicon.png?v=108">
+    <link rel="apple-touch-icon" href="favicon.png?v=108">
+
     <!-- Primary SEO Meta Tags -->
-    <meta name="description" content="Explore the bespoke digital services offered by Bedrock Digital. We build high-performance custom websites, bespoke apps, autonomous AI agents, and scaling brands.">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Explore Bedrock Digital's core services: high-performance custom websites, bespoke mobile app development, autonomous AI agents &amp; automated workflows, performance digital marketing, and premium brand identity design.">
+    <meta name="keywords" content="web development services, mobile app development, AI agent systems, performance marketing, brand identity design, custom software engineering, bedrock digital services">
+    <meta name="author" content="Bedrock Digital">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#5d33b0">
+    <meta name="geo.region" content="IN-MH">
+    <meta name="geo.placename" content="Mumbai, Maharashtra">
+    <link rel="canonical" href="https://bedrockdigital.agency/services.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="Bedrock Digital">
+    <meta property="og:url" content="https://bedrockdigital.agency/services.html">
+    <meta property="og:title" content="Services | Custom Web Development, Mobile Apps &amp; AI Agents | Bedrock Digital">
+    <meta property="og:description" content="Explore Bedrock Digital's bespoke engineering and marketing services designed to scale modern brands.">
+    <meta property="og:image" content="https://bedrockdigital.agency/favicon.png">
+    <meta property="og:image:alt" content="Bedrock Digital Services">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@bedrockdigitall">
+    <meta name="twitter:url" content="https://bedrockdigital.agency/services.html">
+    <meta name="twitter:title" content="Services | Custom Web Development, Mobile Apps &amp; AI Agents | Bedrock Digital">
+    <meta name="twitter:description" content="Explore Bedrock Digital's bespoke engineering and marketing services designed to scale modern brands.">
+    <meta name="twitter:image" content="https://bedrockdigital.agency/favicon.png">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bedrockdigital.agency/services.html#webpage",
+          "url": "https://bedrockdigital.agency/services.html",
+          "name": "Services | Custom Web Development, Mobile Apps &amp; AI Agents | Bedrock Digital",
+          "isPartOf": {"@id": "https://bedrockdigital.agency/#website"},
+          "about": {"@id": "https://bedrockdigital.agency/#organization"},
+          "description": "Explore Bedrock Digital's bespoke engineering, design, and marketing services.",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bedrockdigital.agency/"},
+              {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://bedrockdigital.agency/services.html"}
+            ]
+          },
+          "inLanguage": "en-IN"
+        }
+      ]
+    }
+    </script>
 
     <!-- Locomotive Scroll CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
@@ -19,14 +72,19 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css?v=59">
+    <link rel="stylesheet" href="style.css?v=107">
+
+    <!-- Three.js for Premium 3D Graphics -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
 <body>
+
     <!-- Custom Cursor -->
     <div id="cursor">
+        <div class="cursor-text"></div>
         <svg class="snake-cursor" viewBox="0 0 100 100">
             <path class="snake-path" 
                   d="M 85 50 Q 85 65 68 68 Q 65 85 50 85 Q 35 85 32 68 Q 15 65 15 50 Q 15 35 32 32 Q 35 15 50 15 Q 65 15 68 32 Q 85 35 85 50 Z" 
@@ -40,220 +98,252 @@
     <!-- Navigation -->
     <nav id="nav" class="clay-nav">
         <a href="index.html" class="clay-logo">
-            <img src="ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="nav-logo-img">
+            <img src="assests/ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=99" alt="Bedrock Digital" class="nav-logo-img">
         </a>
 
         <div class="links">
             <a href="index.html">Home</a>
             <a href="work.html">Work</a>
-            <a href="services.html">Services</a>
+            <a href="services.html" class="active">Services</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </div>
         <div class="nav-right">
-            <a href="contact.html" class="contact-btn">Contact</a>
+            <div id="nav-cube-container"></div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="ri-menu-line"></i>
+            </button>
         </div>
-        
-        <button class="nav-menu-toggle" aria-label="Toggle Menu">
-            <span class="toggle-bar bar-top"></span>
-            <span class="toggle-bar bar-bottom"></span>
-        </button>
     </nav>
-
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu" class="mobile-menu-overlay">
-        <div class="mobile-menu-links">
-            <a href="index.html" class="mobile-link">Home</a>
-            <a href="work.html" class="mobile-link">Work</a>
-            <a href="services.html" class="mobile-link">Services</a>
-            <a href="about.html" class="mobile-link">About</a>
-            <a href="contact.html" class="mobile-link">Contact</a>
-        </div>
-    </div>
 
     <div id="main" data-scroll-container>
 
-        <!-- Services Hero Section -->
-        <section id="services-hero" class="services-hero" data-scroll>
-            <div class="services-hero-content">
-                <h1 class="services-hero-title">Our Services</h1>
-                <p class="services-hero-description">
-                    We build the digital foundation your brand grows from.<br>
-                    From high-performance websites and growth marketing to campaigns, AI systems, and smart automations, we create tailored digital solutions that help brands scale with clarity.
+        <!-- Services Header Section -->
+        <section class="subpage-header-section" data-scroll>
+            <div class="subpage-header-content mob-reveal">
+                <div class="subpage-breadcrumbs">
+                    <a href="index.html">BEDROCK</a> <i class="ri-arrow-right-s-line"></i> <span class="current-page">SERVICES</span>
+                </div>
+                <h1 class="subpage-title">OUR SERVICES</h1>
+                <p class="subpage-description">
+                    We build the digital foundation your brand grows from. From high-performance websites and growth marketing to campaigns, AI systems, and smart automations, we create tailored digital solutions that help brands scale with clarity.
                 </p>
+                <div class="header-tags-row">
+                    <span class="header-tag-pill"><i class="ri-git-branch-line"></i> ENGINE V2.0</span>
+                    <span class="header-tag-pill"><i class="ri-shield-check-line"></i> BESPOKE QA</span>
+                    <span class="header-tag-pill"><i class="ri-speed-up-line"></i> LIGHTHOUSE 100</span>
+                </div>
+            </div>
+            <div class="subpage-header-graphic mob-reveal">
+                <div id="subpage-canvas-container" data-shape="combo"></div>
             </div>
         </section>
 
-        <!-- Detailed Services Section -->
-        <section class="services-detail-section" data-scroll>
-            
-            <!-- Service 1: Web Development -->
-            <div class="service-detail-block" data-scroll>
-                <div class="service-detail-left">
-                    <span class="service-num">01 / PLATFORMS</span>
-                    <h2>Web<br>Development</h2>
-                </div>
-                <div class="service-detail-right">
-                    <p>We design and engineer bespoke, high-performance websites that load instantly, scale fluidly, and look premium. Every platform we build is engineered with clear user journeys, clean semantics, and micro-interactions that keep users engaged and drive conversions.</p>
+        <!-- Services Detail List Section -->
+        <section id="services-list" class="subpage-services-list-section" data-scroll>
+            <div class="services-list-container">
+                
+                <!-- Service Card 01 - Platforms -->
+                <div id="web-development" class="service-detail-block mob-reveal" data-accent="blue">
+                    <div class="service-detail-left">
+                        <div class="service-accent-number">01 / PLATFORMS</div>
+                        <h2 class="service-detail-title">Web<br>Development</h2>
+                        <p class="service-detail-desc">
+                            We design and engineer bespoke, high-performance websites that load instantly, scale fluidly, and look premium. Every platform we build is engineered with clear user journeys, clean semantics, and micro-interactions that keep users engaged and drive conversions.
+                        </p>
+                        
+                        <!-- Tech stack list -->
+                        <div class="service-tech-stack-container">
+                            <span class="stack-title">ENGINEERING STACK:</span>
+                            <div class="tags">
+                                <span class="tag">React / Next.js</span>
+                                <span class="tag">HTML5 / Vanilla CSS</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">GSAP / ScrollTrigger</span>
+                                <span class="tag">TailwindCSS</span>
+                                <span class="tag">REST APIs</span>
+                            </div>
+                        </div>
+                    </div>
                     
-                    <div class="service-features-list">
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                    <div class="service-detail-right">
+                        <div class="capabilities-title">// CAPABILITIES</div>
+                        <ul class="capabilities-list">
+                            <li>
                                 <h4>Custom Web Apps</h4>
                                 <p>Interactive digital products built on React and Next.js frameworks for high scaling capability.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>Bespoke UI/UX Design</h4>
                                 <p>Harmonious color palettes, typography systems, and layouts optimized for maximum conversion rates.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>SEO Architecture</h4>
                                 <p>Structured markup, fast loading times, and index-optimized headings to maximize organic search rank.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>Speed Optimization</h4>
                                 <p>Static generation, image compression, and code splitting to achieve excellent Lighthouse scores.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service Card 02 - Growth -->
+                <div id="digital-marketing" class="service-detail-block mob-reveal" data-accent="emerald">
+                    <div class="service-detail-left">
+                        <div class="service-accent-number">02 / GROWTH</div>
+                        <h2 class="service-detail-title">Digital<br>Marketing</h2>
+                        <p class="service-detail-desc">
+                            We drive brand growth and user acquisition through data-backed marketing systems. We plan social media content, configure paid performance campaigns, coordinate influencer collaborations, and audit search rankings to guarantee consistent visibility and conversions.
+                        </p>
+                        
+                        <!-- Tech stack list -->
+                        <div class="service-tech-stack-container">
+                            <span class="stack-title">MARKETING STACK:</span>
+                            <div class="tags">
+                                <span class="tag">Google Analytics 4</span>
+                                <span class="tag">Meta Ads Manager</span>
+                                <span class="tag">SEO Audits</span>
+                                <span class="tag">Content Strategy</span>
+                                <span class="tag">Copywriting</span>
+                                <span class="tag">Email Marketing</span>
                             </div>
                         </div>
                     </div>
-
-                    <div class="service-tech-tags">
-                        <span class="service-tech-tag">React / Next.js</span>
-                        <span class="service-tech-tag">HTML5 / Vanilla CSS</span>
-                        <span class="service-tech-tag">Node.js</span>
-                        <span class="service-tech-tag">GSAP / ScrollTrigger</span>
-                        <span class="service-tech-tag">TailwindCSS</span>
-                        <span class="service-tech-tag">REST APIs</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 2: Digital Marketing -->
-            <div class="service-detail-block" data-scroll>
-                <div class="service-detail-left">
-                    <span class="service-num">02 / GROWTH</span>
-                    <h2>Digital<br>Marketing</h2>
-                </div>
-                <div class="service-detail-right">
-                    <p>We drive brand growth and user acquisition through data-backed marketing systems. We plan social media content, configure paid performance campaigns, coordinate influencer collaborations, and audit search rankings to guarantee consistent visibility and conversions.</p>
                     
-                    <div class="service-features-list">
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                    <div class="service-detail-right">
+                        <div class="capabilities-title">// CAPABILITIES</div>
+                        <ul class="capabilities-list">
+                            <li>
                                 <h4>Performance Ads</h4>
                                 <p>Targeted campaigns on Google Search, YouTube, Meta, and LinkedIn designed to optimize acquisition costs.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>Influencer Outreach</h4>
                                 <p>Identifying, securing, and managing creative partnerships that align perfectly with your target audience.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>Social Media Campaigns</h4>
                                 <p>End-to-end content planning, graphic production, and organic brand management across channels.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>Conversion Rate (CRO)</h4>
                                 <p>Landing page testing, user flow tracking, and call-to-action tuning to maximize signups and sales.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service Card 03 - Intelligence -->
+                <div id="ai-automation" class="service-detail-block mob-reveal" data-accent="purple">
+                    <div class="service-detail-left">
+                        <div class="service-accent-number">03 / INTELLIGENCE</div>
+                        <h2 class="service-detail-title">AI &<br>Automation</h2>
+                        <p class="service-detail-desc">
+                            We build autonomous workflows and intelligent AI agents that reduce manual tasks, boost business performance, and work 24/7. From automated lead routing and CRM synchronization to advanced customer support chatbots, we link your systems together smoothly.
+                        </p>
+                        
+                        <!-- Tech stack list -->
+                        <div class="service-tech-stack-container">
+                            <span class="stack-title">INTELLIGENCE STACK:</span>
+                            <div class="tags">
+                                <span class="tag">OpenAI API</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">Zapier / Make.com</span>
+                                <span class="tag">Python Scripting</span>
+                                <span class="tag">Webhooks / REST</span>
+                                <span class="tag">SQL / Vector DBs</span>
                             </div>
                         </div>
                     </div>
-
-                    <div class="service-tech-tags">
-                        <span class="service-tech-tag">Google Analytics 4</span>
-                        <span class="service-tech-tag">Meta Ads Manager</span>
-                        <span class="service-tech-tag">SEO Audits</span>
-                        <span class="service-tech-tag">Content Strategy</span>
-                        <span class="service-tech-tag">Copywriting</span>
-                        <span class="service-tech-tag">Email Marketing</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 3: AI & Automation -->
-            <div class="service-detail-block" data-scroll>
-                <div class="service-detail-left">
-                    <span class="service-num">03 / INTELLIGENCE</span>
-                    <h2>AI &<br>Automation</h2>
-                </div>
-                <div class="service-detail-right">
-                    <p>We build autonomous workflows and intelligent AI agents that reduce manual tasks, boost business performance, and work 24/7. From automated lead routing and CRM synchronization to advanced customer support chatbots, we link your systems together smoothly.</p>
                     
-                    <div class="service-features-list">
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                    <div class="service-detail-right">
+                        <div class="capabilities-title">// CAPABILITIES</div>
+                        <ul class="capabilities-list">
+                            <li>
                                 <h4>Autonomous AI Agents</h4>
                                 <p>Context-aware agents integrated with Large Language Models (LLMs) to perform complex tasks.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>Support Chatbots</h4>
                                 <p>Custom trained support bots that interface directly with your databases to resolve client queries instantly.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>Workflow Automation</h4>
                                 <p>Connecting tools via Zapier, Make, and custom webhooks to automate data entries and alerts.</p>
-                            </div>
-                        </div>
-                        <div class="feature-item">
-                            <i class="ri-checkbox-circle-line"></i>
-                            <div class="feature-text">
+                            </li>
+                            <li>
                                 <h4>CRM & Lead Management</h4>
                                 <p>Automatic lead scoring, auto-responders, and CRM data sync to optimize sales cycles.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="service-tech-tags">
-                        <span class="service-tech-tag">OpenAI API</span>
-                        <span class="service-tech-tag">LangChain</span>
-                        <span class="service-tech-tag">Zapier / Make.com</span>
-                        <span class="service-tech-tag">Python Scripting</span>
-                        <span class="service-tech-tag">Webhooks / REST</span>
-                        <span class="service-tech-tag">SQL / Vector DBs</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+
+            </div>
+        </section>
+
+        <!-- Why Bedrock Architecture Section (Value Propositions) -->
+        <section class="services-why-section" data-scroll>
+            <div class="why-header mob-reveal">
+                <span class="section-kicker">// WHY BEDROCK ARCHITECTURE</span>
+                <h2 class="section-title">THE ENGINEERING DIFFERENCE</h2>
+            </div>
+            
+            <div class="why-grid mob-reveal-stagger">
+                <!-- Card 1 -->
+                <div class="why-card">
+                    <span class="why-card-num">01 / PERFORMANCE</span>
+                    <h3 class="why-card-title">SUB-SECOND LOAD SPEED</h3>
+                    <p class="why-card-desc">We compile using high-performance static generators, compressed responsive asset structures, and clean semantic structures to achieve exceptional Google Lighthouse speed metrics. No bloated builders.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="why-card">
+                    <span class="why-card-num">02 / CODE QUALITY</span>
+                    <h3 class="why-card-title">0% TEMPLATE GUARANTEE</h3>
+                    <p class="why-card-desc">Every platform is engineered line-by-line using pure, semantic custom code. This maximizes SEO index coverage, safeguards against security exploits, and allows unlimited fluid scaling.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="why-card">
+                    <span class="why-card-num">03 / COGNITIVE SYSTEMS</span>
+                    <h3 class="why-card-title">AUTONOMOUS INTELLIGENCE</h3>
+                    <p class="why-card-desc">We build context-aware workflows and database integrations that keep your brand running 24/7. Automatically synchronizing leads, triggering notifications, and resolving customer inquiries.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Integration Ecosystem Section -->
+        <section class="services-ecosystem-section" data-scroll>
+            <div class="ecosystem-header mob-reveal">
+                <span class="section-kicker">// GLOBAL ENGINE PARTNERSHIPS</span>
+                <h2 class="section-title">THE INTEGRATION ECOSYSTEM</h2>
+                <p class="ecosystem-desc">We seamlessly build upon and orchestrate the world's most robust digital and automation tools.</p>
+            </div>
+            
+            <div class="ecosystem-grid mob-reveal-stagger">
+                <div class="eco-tile"><i class="ri-reactjs-line"></i><span>React / Next.js</span></div>
+                <div class="eco-tile"><i class="ri-html5-line"></i><span>HTML5 / CSS3</span></div>
+                <div class="eco-tile"><i class="ri-openai-line"></i><span>OpenAI API</span></div>
+                <div class="eco-tile"><i class="ri-terminal-box-line"></i><span>LangChain</span></div>
+                <div class="eco-tile"><i class="ri-bubble-chart-line"></i><span>Zapier / Make</span></div>
+                <div class="eco-tile"><i class="ri-code-s-slash-line"></i><span>Node.js</span></div>
+                <div class="eco-tile"><i class="ri-code-s-slash-line"></i><span>RESTful APIs</span></div>
+                <div class="eco-tile"><i class="ri-database-2-line"></i><span>Vector DBs / SQL</span></div>
             </div>
         </section>
 
         <!-- Footer Section -->
         <div id="footer-wrapper" class="footer-wrapper">
             <footer id="footer">
-                <!-- Giant Heading Split -->
                 <div class="footer-giant-title-split">
                     <span class="word-left">Bedrock</span>
                     <span class="word-right">Digital</span>
                 </div>
 
-                <!-- Bottom bar -->
                 <div class="footer-bottom-bar">
                     <div class="footer-bottom-left">
-                        <img src="ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="footer-logo-img">
+                        <img src="assests/ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="footer-logo-img">
                     </div>
                     <div class="footer-bottom-right">
                         <a href="about.html">About Bedrock</a>
@@ -272,8 +362,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 
+    <!-- Floating Chat Widget -->
+    <div id="chat-widget" class="chat-widget-container">
+        <!-- Floating Chat Button -->
+        <button id="chat-toggle-btn" class="chat-toggle-button" aria-label="Open Chat">
+            <i class="ri-message-3-line"></i>
+            <div class="chat-notification-dot"></div>
+        </button>
+
+        <!-- Chat Window Card -->
+        <div id="chat-window" class="chat-window-card">
+            <!-- Header -->
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar">
+                        <span class="avatar-dot"></span>
+                        <i class="ri-robot-2-line"></i>
+                    </div>
+                    <div class="chat-status-wrapper">
+                        <h4>Bedrock Assistant</h4>
+                        <span class="chat-status-text">online</span>
+                    </div>
+                </div>
+                <button id="chat-close-btn" class="chat-close-button" aria-label="Close Chat">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+
+            <!-- Messages List -->
+            <div id="chat-messages" class="chat-messages-container"></div>
+
+            <!-- Suggestion Chips -->
+            <div id="chat-suggestions" class="chat-suggestions-container"></div>
+
+            <!-- Input Area -->
+            <form id="chat-input-form" class="chat-input-form">
+                <input type="text" id="chat-input-field" placeholder="Ask a question..." autocomplete="off" required />
+                <button type="submit" id="chat-send-btn" class="chat-send-button" aria-label="Send Message">
+                    <i class="ri-send-plane-fill"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
     <!-- Main JS -->
-    <script src="script.js?v=24"></script>
+    <script src="script.js?v=109"></script>
 </body>
 
 </html>

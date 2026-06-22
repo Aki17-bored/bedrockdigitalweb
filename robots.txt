@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bedrockdigital.online/sitemap.xml
+Sitemap: https://bedrockdigital.agency/sitemap.xml

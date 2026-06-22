@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Bedrock Digital Agency</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <meta name="google-site-verification" content="MRMrtMYMjYHi_4axDgb_HyUr40zHcR5bUoQGnNYyXPY" />
-    
+    <title>About Bedrock Digital | India's Premier Creative Engineering Agency</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png?v=108">
+    <link rel="shortcut icon" href="favicon.png?v=108">
+    <link rel="apple-touch-icon" href="favicon.png?v=108">
+
     <!-- Primary SEO Meta Tags -->
-    <meta name="description" content="Meet Bedrock Digital. We are a bespoke digital product studio and agency specializing in high-performance web development, creative UI/UX, and smart automation.">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Learn about Bedrock Digital — India's leading creative engineering studio merging interactive web design, custom app engineering, AI automation and performance digital marketing to build scaling digital brands.">
+    <meta name="keywords" content="about bedrock digital, creative engineering agency India, web design team Mumbai, AI development studio, digital agency about us, brand engineering India">
+    <meta name="author" content="Bedrock Digital">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#5d33b0">
+    <meta name="geo.region" content="IN-MH">
+    <meta name="geo.placename" content="Mumbai, Maharashtra">
+    <link rel="canonical" href="https://bedrockdigital.agency/about.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="Bedrock Digital">
+    <meta property="og:url" content="https://bedrockdigital.agency/about.html">
+    <meta property="og:title" content="About Bedrock Digital | India's Premier Creative Engineering Agency">
+    <meta property="og:description" content="Bedrock Digital — A modern creative engineering studio building bespoke websites, apps, AI agents and performance marketing systems for modern brands.">
+    <meta property="og:image" content="https://bedrockdigital.agency/favicon.png">
+    <meta property="og:image:alt" content="Bedrock Digital Team">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@bedrockdigitall">
+    <meta name="twitter:url" content="https://bedrockdigital.agency/about.html">
+    <meta name="twitter:title" content="About Bedrock Digital | India's Premier Creative Engineering Agency">
+    <meta name="twitter:description" content="Bedrock Digital — A modern creative engineering studio building bespoke websites, apps, AI agents and performance marketing for scaling brands.">
+    <meta name="twitter:image" content="https://bedrockdigital.agency/favicon.png">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bedrockdigital.agency/about.html#webpage",
+          "url": "https://bedrockdigital.agency/about.html",
+          "name": "About Bedrock Digital | India's Premier Creative Engineering Agency",
+          "isPartOf": {"@id": "https://bedrockdigital.agency/#website"},
+          "about": {"@id": "https://bedrockdigital.agency/#organization"},
+          "description": "Learn about Bedrock Digital — India's leading creative engineering studio.",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bedrockdigital.agency/"},
+              {"@type": "ListItem", "position": 2, "name": "About", "item": "https://bedrockdigital.agency/about.html"}
+            ]
+          },
+          "inLanguage": "en-IN"
+        }
+      ]
+    }
+    </script>
 
     <!-- Locomotive Scroll CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
@@ -19,14 +72,19 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css?v=60">
+    <link rel="stylesheet" href="style.css?v=107">
+
+    <!-- Three.js for Premium 3D Graphics -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
 <body>
+
     <!-- Custom Cursor -->
     <div id="cursor">
+        <div class="cursor-text"></div>
         <svg class="snake-cursor" viewBox="0 0 100 100">
             <path class="snake-path" 
                   d="M 85 50 Q 85 65 68 68 Q 65 85 50 85 Q 35 85 32 68 Q 15 65 15 50 Q 15 35 32 32 Q 35 15 50 15 Q 65 15 68 32 Q 85 35 85 50 Z" 
@@ -40,140 +98,139 @@
     <!-- Navigation -->
     <nav id="nav" class="clay-nav">
         <a href="index.html" class="clay-logo">
-            <img src="ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="nav-logo-img">
+            <img src="assests/ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=99" alt="Bedrock Digital" class="nav-logo-img">
         </a>
 
         <div class="links">
             <a href="index.html">Home</a>
             <a href="work.html">Work</a>
             <a href="services.html">Services</a>
-            <a href="about.html">About</a>
+            <a href="about.html" class="active">About</a>
             <a href="contact.html">Contact</a>
         </div>
         <div class="nav-right">
-            <a href="contact.html" class="contact-btn">Contact</a>
+            <div id="nav-cube-container"></div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="ri-menu-line"></i>
+            </button>
         </div>
-        
-        <button class="nav-menu-toggle" aria-label="Toggle Menu">
-            <span class="toggle-bar bar-top"></span>
-            <span class="toggle-bar bar-bottom"></span>
-        </button>
     </nav>
-
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu" class="mobile-menu-overlay">
-        <div class="mobile-menu-links">
-            <a href="index.html" class="mobile-link">Home</a>
-            <a href="work.html" class="mobile-link">Work</a>
-            <a href="services.html" class="mobile-link">Services</a>
-            <a href="about.html" class="mobile-link">About</a>
-            <a href="contact.html" class="mobile-link">Contact</a>
-        </div>
-    </div>
 
     <div id="main" data-scroll-container>
 
-        <!-- About Hero Section -->
-        <section id="about-hero" class="about-hero" data-scroll>
-            <div class="about-hero-content">
-                <h1 class="about-hero-title">We Build Different.<br>We Build Digital.</h1>
-                <p class="about-hero-description">
+        <!-- About Intro Header Section -->
+        <section class="about-hero-section" data-scroll>
+            <div class="about-hero-content mob-reveal">
+                <div class="subpage-breadcrumbs">
+                    <a href="index.html">BEDROCK</a> <i class="ri-arrow-right-s-line"></i> <span class="current-page">ABOUT</span>
+                </div>
+                <h1 class="about-hero-title">About Bedrock</h1>
+                <p class="about-hero-desc">
                     Bedrock Digital is a modern product studio and creative engineering agency. We merge interactive front-end design, high-performance web engineering, and autonomous AI systems to build robust digital foundations for brands that want to scale with clarity.
                 </p>
+                <div class="header-tags-row">
+                    <span class="header-tag-pill"><i class="ri-stack-line"></i> PRODUCT STUDIO</span>
+                    <span class="header-tag-pill"><i class="ri-palette-line"></i> CREATIVE AGENCY</span>
+                    <span class="header-tag-pill"><i class="ri-calendar-line"></i> EST. 2026</span>
+                </div>
+            </div>
+            <div class="subpage-header-graphic mob-reveal">
+                <div id="subpage-canvas-container" data-shape="torus"></div>
             </div>
         </section>
 
         <!-- Pillars Section -->
-        <section class="pillars-section" data-scroll>
-            <div class="pillars-header">
-                <span class="about-section-subtitle">// OUR FOCUS AREAS</span>
-                <h2 class="about-section-title">CORE PILLARS</h2>
+        <section id="pillars" class="about-pillars-section" data-scroll>
+            <div class="pillars-header mob-reveal">
+                <span class="section-kicker">// OUR FOCUS AREAS</span>
+                <h2 class="section-title">CORE PILLARS</h2>
             </div>
             
-            <div class="pillars-grid">
+            <div class="pillars-grid mob-reveal-stagger">
                 <!-- Pillar 1 -->
                 <div class="pillar-card">
                     <span class="pillar-num">01 / DESIGN</span>
-                    <h3>Bespoke UI / UX</h3>
-                    <p>We craft interfaces that feel premium, intuitive, and modern. Through curated color palettes, layouts, and typography systems, we turn product complexity into clear user experiences.</p>
+                    <h3 class="pillar-title">Bespoke UI / UX</h3>
+                    <p class="pillar-desc">We craft interfaces that feel premium, intuitive, and modern. Through curated color palettes, layouts, and typography systems, we turn product complexity into clear user experiences.</p>
                 </div>
                 <!-- Pillar 2 -->
                 <div class="pillar-card">
                     <span class="pillar-num">02 / CODE</span>
-                    <h3>Creative Engineering</h3>
-                    <p>Every website and app we build is structured with static generation, semantic HTML, and fluid GSAP animations. Fast, secure, and built to rank on search indexes.</p>
+                    <h3 class="pillar-title">Creative Engineering</h3>
+                    <p class="pillar-desc">Every website and app we build is structured with static generation, semantic HTML, and fluid GSAP animations. Fast, secure, and built to rank on search indexes.</p>
                 </div>
                 <!-- Pillar 3 -->
                 <div class="pillar-card">
                     <span class="pillar-num">03 / AUTOMATE</span>
-                    <h3>AI & Integrations</h3>
-                    <p>We build autonomous workflows and custom-trained AI agents that link your tools together. Reducing manual input, scoring leads, and keeping operations running 24/7.</p>
+                    <h3 class="pillar-title">AI & Integrations</h3>
+                    <p class="pillar-desc">We build autonomous workflows and custom-trained AI agents that link your tools together. Reducing manual input, scoring leads, and keeping operations running 24/7.</p>
                 </div>
             </div>
         </section>
 
         <!-- Process Section -->
-        <section class="process-section" data-scroll>
-            <div class="process-header">
-                <span class="about-section-subtitle">// THE PATH TO RELEASE</span>
-                <h2 class="about-section-title">OUR PROCESS</h2>
+        <section class="about-process-section" data-scroll>
+            <div class="process-header mob-reveal">
+                <span class="section-kicker">// THE PATH TO RELEASE</span>
+                <h2 class="section-title">OUR PROCESS</h2>
             </div>
 
-            <div class="process-timeline">
-                <!-- Step 1 -->
-                <div class="process-step">
-                    <div class="process-step-left">
-                        <span class="step-num">STAGE 01</span>
+            <!-- Stages Timeline -->
+            <div class="process-timeline mob-reveal-stagger">
+                <!-- Stage 1 -->
+                <div class="process-stage-item">
+                    <div class="stage-left">
+                        <span class="stage-tag">STAGE 01</span>
                     </div>
-                    <div class="process-step-right">
-                        <h3>Discovery & Blueprinting</h3>
-                        <p>We audit your target market, technical requirements, and core business goals. This shapes a production blueprint, wireframe map, and technology roadmap before we write any code.</p>
-                    </div>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="process-step">
-                    <div class="process-step-left">
-                        <span class="step-num">STAGE 02</span>
-                    </div>
-                    <div class="process-step-right">
-                        <h3>Interactive Prototyping</h3>
-                        <p>We model the visual layout, typography scale, and micro-interactions. You review high-fidelity designs, so the final product behaves exactly as envisioned.</p>
+                    <div class="stage-right">
+                        <h3 class="stage-title">Discovery & Blueprinting</h3>
+                        <p class="stage-desc">We audit your target market, technical requirements, and core business goals. This shapes a production blueprint, wireframe map, and technology roadmap before we write any code.</p>
                     </div>
                 </div>
 
-                <!-- Step 3 -->
-                <div class="process-step">
-                    <div class="process-step-left">
-                        <span class="step-num">STAGE 03</span>
+                <!-- Stage 2 -->
+                <div class="process-stage-item">
+                    <div class="stage-left">
+                        <span class="stage-tag">STAGE 02</span>
                     </div>
-                    <div class="process-step-right">
-                        <h3>Development & Systems Sync</h3>
-                        <p>We write clean, semantic code using robust backend APIs. We configure database endpoints, webhooks, and automate pipelines to match the blueprint.</p>
+                    <div class="stage-right">
+                        <h3 class="stage-title">Interactive Prototyping</h3>
+                        <p class="stage-desc">We model the visual layout, typography scale, and micro-interactions. You review high-fidelity designs, so the final product behaves exactly as envisioned.</p>
                     </div>
                 </div>
 
-                <!-- Step 4 -->
-                <div class="process-step">
-                    <div class="process-step-left">
-                        <span class="step-num">STAGE 04</span>
+                <!-- Stage 3 -->
+                <div class="process-stage-item">
+                    <div class="stage-left">
+                        <span class="stage-tag">STAGE 03</span>
                     </div>
-                    <div class="process-step-right">
-                        <h3>Performance Audit & Launch</h3>
-                        <p>We test cross-device viewports, check Lighthouse speed rankings, optimize images, configure SEO meta data, and deploy on reliable cloud servers.</p>
+                    <div class="stage-right">
+                        <h3 class="stage-title">Development & Systems Sync</h3>
+                        <p class="stage-desc">We write clean, semantic code using robust backend APIs. We configure database endpoints, webhooks, and automate pipelines to match the blueprint.</p>
+                    </div>
+                </div>
+
+                <!-- Stage 4 -->
+                <div class="process-stage-item">
+                    <div class="stage-left">
+                        <span class="stage-tag">STAGE 04</span>
+                    </div>
+                    <div class="stage-right">
+                        <h3 class="stage-title">Performance Audit & Launch</h3>
+                        <p class="stage-desc">We test cross-device viewports, check Lighthouse speed rankings, optimize images, configure SEO meta data, and deploy on reliable cloud servers.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Build Together CTA Section -->
-        <section class="build-together-section" data-scroll>
-            <div class="build-together-card mob-reveal">
-                <div class="card-content">
-                    <span class="card-subtitle">// COLLABORATE WITH US</span>
-                    <h2>LET'S BUILD SOMETHING EXTRAORDINARY TOGETHER</h2>
-                    <p>Whether you need a custom high-performance website, automated workflows, or an end-to-end digital strategy, we're ready to partner with you and build your digital foundation.</p>
-                    <a href="contact.html" class="cta-card-btn">START A PROJECT <div class="dot"></div></a>
+        <!-- Dynamic CTA Card Block -->
+        <section class="about-cta-section" data-scroll>
+            <div class="about-cta-card mob-reveal">
+                <span class="cta-eyebrow">// COLLABORATE WITH US</span>
+                <h2 class="cta-title">LET'S BUILD SOMETHING EXTRAORDINARY TOGETHER</h2>
+                <p class="cta-desc">Whether you need a custom high-performance website, automated workflows, or an end-to-end digital strategy, we're ready to partner with you and build your digital foundation.</p>
+                <div class="cta-btn-wrapper">
+                    <a href="contact.html" class="start-btn">START A PROJECT <div class="dot"></div></a>
                 </div>
             </div>
         </section>
@@ -181,16 +238,14 @@
         <!-- Footer Section -->
         <div id="footer-wrapper" class="footer-wrapper">
             <footer id="footer">
-                <!-- Giant Heading Split -->
                 <div class="footer-giant-title-split">
                     <span class="word-left">Bedrock</span>
                     <span class="word-right">Digital</span>
                 </div>
 
-                <!-- Bottom bar -->
                 <div class="footer-bottom-bar">
                     <div class="footer-bottom-left">
-                        <img src="ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="footer-logo-img">
+                        <img src="assests/ChatGPT Image May 28, 2026, 04_16_23 PM (1).png?v=2" alt="Bedrock Digital" class="footer-logo-img">
                     </div>
                     <div class="footer-bottom-right">
                         <a href="about.html">About Bedrock</a>
@@ -209,8 +264,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 
+    <!-- Floating Chat Widget -->
+    <div id="chat-widget" class="chat-widget-container">
+        <!-- Floating Chat Button -->
+        <button id="chat-toggle-btn" class="chat-toggle-button" aria-label="Open Chat">
+            <i class="ri-message-3-line"></i>
+            <div class="chat-notification-dot"></div>
+        </button>
+
+        <!-- Chat Window Card -->
+        <div id="chat-window" class="chat-window-card">
+            <!-- Header -->
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar">
+                        <span class="avatar-dot"></span>
+                        <i class="ri-robot-2-line"></i>
+                    </div>
+                    <div class="chat-status-wrapper">
+                        <h4>Bedrock Assistant</h4>
+                        <span class="chat-status-text">online</span>
+                    </div>
+                </div>
+                <button id="chat-close-btn" class="chat-close-button" aria-label="Close Chat">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+
+            <!-- Messages List -->
+            <div id="chat-messages" class="chat-messages-container"></div>
+
+            <!-- Suggestion Chips -->
+            <div id="chat-suggestions" class="chat-suggestions-container"></div>
+
+            <!-- Input Area -->
+            <form id="chat-input-form" class="chat-input-form">
+                <input type="text" id="chat-input-field" placeholder="Ask a question..." autocomplete="off" required />
+                <button type="submit" id="chat-send-btn" class="chat-send-button" aria-label="Send Message">
+                    <i class="ri-send-plane-fill"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
     <!-- Main JS -->
-    <script src="script.js?v=24"></script>
+    <script src="script.js?v=109"></script>
 </body>
 
 </html>
